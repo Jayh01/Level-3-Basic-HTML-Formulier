@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="discription" content="Dit is een honden website" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <link rel="stylesheet" content="text/css" href="css/top-nav-header.css" />
+    <link rel="stylesheet" content="text/css" href="css/heading" />
+    <link rel="stylesheet" content="text/css" href="css/main-page.css" />
+    <link rel="stylesheet" content="text/css" href="css/footer" />
+    <link rel="stylesheet" content="text/css" href="css/site-body" />
+    <link rel="stylesheet" content="text/css" href="css/contact.css" />
+</head>
+
+<body>
+    <header id="top-header-container-home">
+        <nav class="site-top-header-nav-home-page">
+            <ul>
+                <li><a href="home-page.html">Home</a></li>
+                <li><a class="active-contact-page" href="contact.html">contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <heading>
+        <h1>Contact Formulier</h1>
+    </heading>
+
+    <p>test hier benenden</p>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Your 2 Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Your 1 Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                </select></label>
+        </p>
+        <p>
+            <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+
+    <footer>
+
+
+
+    </footer>
+</body>
+
+</html>
